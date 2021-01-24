@@ -1,12 +1,7 @@
-import Layout from "../../layout";
 import ViewLogin from "../../view/login";
 
 const LoginPage = () => {
-  return (
-    <Layout>
-      <ViewLogin />
-    </Layout>
-  );
+  return <ViewLogin />;
 };
 
 export default LoginPage;
